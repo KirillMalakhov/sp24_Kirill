@@ -6,36 +6,39 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.container{
-  width: 930px;
-  margin: 0 auto;
-  padding: 0 15px;
-
-}
 body{
   font-family: Arial;
 
   }
 
+              /*Шапка сайта*/
+
+.container{
+  width: 930px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .page-header {
   background-color: orange;
   overflow: hidden;
   padding: 15px;
-  }
+}
 
 .logo{
   float: left;
   width: 20%;
-  }
+  color: black;
+  text-decoration: none;
+}
 .logo span, .logo img{
   vertical-align: middle;
 }
 
-a{
+.main-nav a{
   text-decoration: none;
   color: black;
-
-  }
+}
  .main-nav{
   float: right;
   width: 80%;
@@ -45,8 +48,6 @@ a{
   }
 nav li{
     display: inline-block;
-
-
     }
 nav .promo-btn{
   background-color: yellow;
@@ -54,9 +55,13 @@ nav .promo-btn{
   }
   ul li:nth-child(1){font-weight: bold;
   }
-.logo-b{
+.logo-btn{
   padding-left: 10px;
   }
+
+
+                /*Тело сайта*/
+
 .promo{
   text-align: center;
   background-image: url('../img/promoimg.jpg');
@@ -139,6 +144,10 @@ nav .promo-btn{
     float: left;
     }
 
+  .technic-menu a{
+    color: black;
+  }
+
   .deals{
     float: right;
     }
@@ -155,25 +164,41 @@ nav .promo-btn{
   .about .about-reviews{
     float: right;
     }
+ .table-grey{
+    background-color: lightgrey;
+  }
+  .table-white{
+    background-color: white;
+}
+
+  .deals-table th{
+    padding: 15px;
+  }
+  .deals-table{
+    border-spacing: 7px 11px;
+  }
+
+
+                /*Подвал сайта*/
+
 
   footer{
     background-color: black;
     overflow: hidden;
     }
-  .main-nav{
+  .footer-nav{
     float: right;
-
         }
+  .footer-nav a{
+    color: white;
+    }
   .footer-btn{
     color: yellow;
     }
-  .main-nav a{
-    color: white;
-    }
-  .main-nav .footer-promo{
+  .footer-nav .footer-promo{
     color: yellow;
     }
-  .main-nav a:hover{
+  .footer-nav a:hover{
 background-color: yellow;
   }
     .footer .logo{
@@ -188,9 +213,3 @@ ul{
   }
 
 
-  .table-grey{
-    background-color: lightgrey;
-  }
-  .table-white{
-    background-color: white;
-  }
