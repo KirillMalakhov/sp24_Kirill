@@ -1,0 +1,196 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container{
+  width: 930px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+body{
+  font-family: Arial;
+
+  }
+
+.page-header {
+  background-color: orange;
+  overflow: hidden;
+  padding: 15px;
+  }
+
+.logo{
+  float: left;
+  width: 20%;
+  }
+.logo span, .logo img{
+  vertical-align: middle;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+
+  }
+ .main-nav{
+  float: right;
+  width: 80%;
+  line-height: 40px;
+  text-align: right;
+  padding-left: 10px;
+  }
+nav li{
+    display: inline-block;
+
+
+    }
+nav .promo-btn{
+  background-color: yellow;
+  padding: 10px;
+  }
+  ul li:nth-child(1){font-weight: bold;
+  }
+.logo-b{
+  padding-left: 10px;
+  }
+.promo{
+  text-align: center;
+  background-image: url('../img/promoimg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 60px;
+    }
+  .promo-slogan{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 30px;
+    color: white;
+    }
+  .promo-title{
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 15px;
+    }
+  .button{
+    color: white;
+    border: 2px solid orange;
+    padding: 12px;
+    display: inline-block;
+
+    }
+  .consult{
+    background-color: #202e3b;
+    padding-top: 1px;
+    }
+
+  .consult .consult-btn{
+    background-color: yellow;
+    padding: 5px;
+
+  }
+
+  .consult-title{
+
+    color: yellow;
+    padding-top: 20px;
+    padding-left: 25px;
+    }
+  .consultform{
+    text-align: center;
+    padding: 20px;
+
+    }
+  input{
+    border: 2px solid yellow;
+    padding: 5px;
+    }
+
+
+  .features-item{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding: 10px;
+    }
+
+  .technic{
+    background-color: whitesmoke;
+    overflow: hidden;
+    padding: 25px;
+    }
+
+  .technic .subtitle{
+    padding-bottom: 15px;
+  }
+
+.technic li{
+  padding: 5px;
+}
+
+  .technic-menu{
+    float: left;
+    }
+
+  .deals{
+    float: right;
+    }
+
+  .about{
+    background-color: darkslategray;
+    color: white;
+    overflow: hidden;
+    }
+  .about .about-number{
+    float: left;
+    }
+
+  .about .about-reviews{
+    float: right;
+    }
+
+  footer{
+    background-color: black;
+    overflow: hidden;
+    }
+  .main-nav{
+    float: right;
+
+        }
+  .footer-btn{
+    color: yellow;
+    }
+  .main-nav a{
+    color: white;
+    }
+  .main-nav .footer-promo{
+    color: yellow;
+    }
+  .main-nav a:hover{
+background-color: yellow;
+  }
+    .footer .logo{
+      color: orange;
+      }
+ul{
+  list-style: none;
+}
+
+  footer li{
+    padding: 5px;
+  }
+
+
+  .table-grey{
+    background-color: lightgrey;
+  }
+  .table-white{
+    background-color: white;
+  }
