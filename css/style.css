@@ -59,7 +59,7 @@ nav .promo-btn{
   padding-left: 10px;
   }
 
-
+              /*Главная страница*/
                 /*Тело сайта*/
               /*Промо контейнер*/
 .promo{
@@ -70,6 +70,7 @@ nav .promo-btn{
   overflow: hidden;
   padding-top: 60px;
   padding-bottom: 60px;
+  min-height: 120px;
     }
   .promo-slogan{
     font-size: 24px;
@@ -97,6 +98,7 @@ nav .promo-btn{
   .consult{
     background-color: #202e3b;
     padding-top: 1px;
+    min-height: 120px;
     }
 
   .consult .consult-btn{
@@ -121,10 +123,13 @@ nav .promo-btn{
     }
 
               /*Функции контейнер*/
-
+.features {
+  min-height: 120px;
+  overflow: hidden;
+}
 
   .features-item{
-    width: 23%;
+    width: 20%;
     margin-left: 30px;
     float: left;
     min-height: 100px;
@@ -149,6 +154,7 @@ nav .promo-btn{
     background-color: whitesmoke;
     overflow: hidden;
     padding: 25px;
+    min-height: 120px;
     }
 
   .technic .subtitle{
@@ -192,6 +198,7 @@ nav .promo-btn{
     background-color: darkslategray;
     color: white;
     overflow: hidden;
+    min-height: 120px;
     }
   .about .about-number{
     float: left;
@@ -200,8 +207,155 @@ nav .promo-btn{
   .about .about-reviews{
     float: right;
     }
+  .subtitle{
+    padding: 15px 0px;
+  }
+
+  .about li{
+    padding: 5px 0px;
+  }
+
+  .about li span{
+    font-size: 20px;
+    color: orange;
+  }
 
 
+              /*Карта контейнер*/
+
+
+  .map{height: 500px;}
+
+
+
+
+              /*Каталог страница*/
+                /*Баннер блок*/
+
+  .promoconsult{
+    background-image: url(http://placehold.it/100x100);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .promo-left{
+    float: left;
+    width: 60%;
+  }
+  .promo-consult-slogan{
+    font-size: 23px;
+    color: orange;
+    padding-top: 25px;
+  }
+  .promo-consult-title{
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .promo-right{
+    float: right;
+    width: 40%;
+    padding-top: 60px;
+    text-align: center;
+  }
+  .promoconsult a{
+    text-decoration: none;
+
+  }
+
+  .consult-button{
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .promo-right p{
+    padding: 20px;
+    color: white;
+  }
+                /*Техника блок*/
+
+  .technic{
+    overflow: hidden;
+      }
+  .technic menu{
+    float: left;
+
+  }
+
+  .technic-subtitle-img{
+    float: left;
+  }
+
+
+  .catalog{
+    text-align: center;
+
+  }
+  .catalog-item{
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid white;
+    width: 220px;
+    overflow: hidden;
+
+  }
+  .catalog-pages{
+    vertical-align: bottom;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .catalog-item-name{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .catalog-item-photo{
+    float: none;
+    padding-top: 10px;
+  }
+
+  .catalog-item-price{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .catalog-item span{
+    float: left;
+    font-weight: bold;
+  }
+
+  .catalog-btn{
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 0px;
+    text-align: center;
+  }
+
+  .catalog-item .rentbtm{
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+
+  }
+
+  .catalog-item .moreinfo{
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+
+  }
 
                 /*Подвал сайта*/
 
