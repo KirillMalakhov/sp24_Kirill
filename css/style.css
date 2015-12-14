@@ -450,6 +450,116 @@ nav .promo-btn{
   }
 
 
+
+
+             /*Портфолио страница*/
+
+  .portfolio{
+    overflow: hidden;
+    background-image: url(../img/portfolio/portfoliobanner.png);
+    min-height: 105px;
+
+  }
+  .portfolio h1{
+    float: left;
+    padding: 35px 15px;
+    color: #ffcd34;
+    font-size: 24px;
+  }
+  .portfolio ul{
+    float: right;
+  }
+  .portfolio li{
+    display: inline-block;
+    padding: 45px 10px;
+  }
+  .portfolio a{
+    color: white;
+  }
+  .blackline{
+    background-color: black;
+    padding: 10px;
+  }
+  .wood-house{
+    background-image: url(../img/portfolio/firsthouse.png);
+    background-size: 100% 100%;
+    min-height: 500px;
+    overflow: hidden;
+  }
+  .apartments{
+    background-image: url(../img/portfolio/secondhouse.png);
+    background-size: 100% 100%;
+    min-height: 500px;
+    overflow: hidden;
+  }
+  .white-house{
+    background-image: url(../img/portfolio/thirdhouse.png);
+    background-size: 100% 100%;
+    min-height: 500px;
+    overflow: hidden;
+  }
+
+  .morebtn{
+    background-color: #ffcd34;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .wh{
+    display: inline-block;
+    background-color: white;
+    padding: 30px;
+    min-height: 246px;
+    margin-top: 100px;
+    margin-left: 160px;
+  }
+  .wh .subtitle{
+    font-size: 20px;
+    text-transform: none;
+    font-weight: normal;
+  }
+  .wh p{
+    font-size: 14px;
+    padding-bottom: 25px;
+  }
+.app{
+    display: inline-block;
+    background-color: white;
+    padding: 30px;
+    min-height: 246px;
+    margin-top: 100px;
+    margin-left: 160px;
+  }
+  .app .subtitle{
+    font-size: 20px;
+    text-transform: none;
+    font-weight: normal;
+  }
+  .app p{
+    font-size: 14px;
+    padding-bottom: 25px;
+  }
+
+  .weh{
+    display: inline-block;
+    background-color: white;
+    padding: 30px;
+    min-height: 246px;
+    margin-top: 100px;
+    margin-left: 160px;
+  }
+  .weh .subtitle{
+    font-size: 20px;
+    text-transform: none;
+    font-weight: normal;
+  }
+  .weh p{
+    font-size: 14px;
+    padding-bottom: 25px;
+  }
+
                 /*Подвал сайта*/
 
 
