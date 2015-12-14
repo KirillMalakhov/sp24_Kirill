@@ -67,9 +67,6 @@ nav .promo-btn{
   .line{
   height: 14px;
   }
-  .line img{
-
-  }
 .promo{
   text-align: center;
   background-image: url('../img/main/1390641675_ekskavator-gusenichnyy-hyundai-380.png');
@@ -95,7 +92,7 @@ nav .promo-btn{
     }
   .button{
     color: white;
-    border: 2px solid orange;
+    border: 2px solid #ffcd34;
     padding: 12px;
     display: inline-block;
     text-decoration: none;
@@ -279,9 +276,14 @@ nav .promo-btn{
                 /*Баннер блок*/
 
   .promoconsult{
-    background-image: url(http://placehold.it/100x100);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+  background-image: url('../img/catalog/banner.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  min-height: 120px;
     overflow: hidden;
   }
 
@@ -291,7 +293,7 @@ nav .promo-btn{
   }
   .promo-consult-slogan{
     font-size: 23px;
-    color: orange;
+    color: #ffcd34;
     padding-top: 25px;
   }
   .promo-consult-title{
@@ -306,16 +308,20 @@ nav .promo-btn{
     float: right;
     width: 40%;
     padding-top: 60px;
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
   }
   .promoconsult a{
     text-decoration: none;
 
+
   }
 
   .consult-button{
-    background-color: yellow;
+    background-color: #ffcd34;
     padding: 10px;
+    margin-left: 20px;
+
   }
 
   .promo-right p{
@@ -326,16 +332,42 @@ nav .promo-btn{
 
   .technic{
     overflow: hidden;
+    background-color: #f3f3f3;
+    min-height: 120px;
+    vertical-align: middle;
       }
   .technic menu{
     float: left;
 
   }
 
-  .technic-subtitle-img{
-    float: left;
+  .technic .subtitle{
+    float: right;
+  }
+  .technic-subtitle-img,
+  .subtitle{
+    vertical-align: middle;
   }
 
+  .technic-subtitle-img{
+    float: left;
+
+  }
+  .technic .downbtn{
+    background-color: #354b60;
+    padding: 5px;
+    margin-left: 5px;
+
+
+    color: white;
+    text-decoration: none;
+
+  }
+  .pdf-download{
+    padding-top: 15px;
+    margin-left: 0;
+    padding-left: 0;
+  }
 
   .catalog{
     text-align: center;
@@ -344,7 +376,7 @@ nav .promo-btn{
   .catalog-item{
     display: inline-block;
     background-color: white;
-    padding: 5px;
+    padding: 10px;
     margin-left: 25px;
     margin-bottom: 5px;
     border: 1px solid white;
@@ -375,9 +407,10 @@ nav .promo-btn{
   }
 
   .catalog-item span{
-    float: left;
+
     font-weight: bold;
   }
+
 
   .catalog-btn{
     display: inline-block;
@@ -387,7 +420,7 @@ nav .promo-btn{
   }
 
   .catalog-item .rentbtm{
-    background-color: orange;
+    background-color: #ffcd34;
     text-decoration: none;
     color: white;
     padding: 5px;
@@ -405,13 +438,15 @@ nav .promo-btn{
   }
 
   .specoffer{
-    background-color: grey;
+    background-image: url(../img/catalog/732_best.png);
     text-align: center;
+    padding: 20px;
   }
 
   .specoffer .del{
     text-decoration: line-through;
     color: red;
+    float: left;
   }
 
 
@@ -419,8 +454,9 @@ nav .promo-btn{
 
 
   footer{
-    background-color: black;
+    background-color: #202e3b;
     overflow: hidden;
+
     }
   footer .main-nav{
     float: right;
@@ -440,7 +476,8 @@ color: white;
 padding:15px;
   }
     footer .logo{
-      color: orange;
+      color: #ffcd34;
+      padding-top: 15px;
       }
 
 ul{
@@ -454,3 +491,9 @@ footer .odbtn{
   color: #ffcd34;
 }
 
+footer .footer-nam-menu{
+  color: white;
+}
+footer .catalog-footer-btn{
+  color: #ffcd34;
+}
