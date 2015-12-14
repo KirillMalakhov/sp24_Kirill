@@ -20,7 +20,7 @@ body{
 }
 
 .page-header {
-  background-color: orange;
+  background-color: #ffcd34;
   overflow: hidden;
   padding: 15px;
 }
@@ -38,19 +38,19 @@ body{
 .main-nav a{
   text-decoration: none;
   color: black;
+  padding-right: 35px;
 }
  .main-nav{
   float: right;
   width: 80%;
   line-height: 40px;
   text-align: right;
-  padding-left: 10px;
   }
 nav li{
     display: inline-block;
     }
 nav .promo-btn{
-  background-color: yellow;
+  background-color: #ffe184;
   padding: 10px;
   }
   ul li:nth-child(1){font-weight: bold;
@@ -59,12 +59,20 @@ nav .promo-btn{
   padding-left: 10px;
   }
 
+
+
               /*Главная страница*/
                 /*Тело сайта*/
               /*Промо контейнер*/
+  .line{
+  height: 14px;
+  }
+  .line img{
+
+  }
 .promo{
   text-align: center;
-  background-image: url('../img/promoimg.jpg');
+  background-image: url('../img/main/1390641675_ekskavator-gusenichnyy-hyundai-380.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
@@ -99,33 +107,43 @@ nav .promo-btn{
     background-color: #202e3b;
     padding-top: 1px;
     min-height: 120px;
+    overflow: hidden;
     }
 
+  .consult .container{
+    float: center;
+  }
   .consult .consult-btn{
-    background-color: yellow;
-    padding: 5px;
+    background-color: #ffcd34;
+    padding: 12px;
+    text-decoration: none;
+    color: #000;
 
   }
 
   .consult-title{
 
-    color: yellow;
+    color: #ffcd34;
     padding-top: 20px;
     padding-left: 25px;
+    font-size: 24px;
     }
   .consultform{
-    text-align: center;
-    padding: 20px;
+    text-align: left;
+    padding: 35px;
     }
   input{
-    border: 2px solid yellow;
-    padding: 5px;
+    border: 2px solid #ffcd34;
+    padding: 10px 10px 10px 10px;
+    background-color: #202e3b;
+    margin-right: 12px;
     }
 
               /*Функции контейнер*/
 .features {
   min-height: 120px;
   overflow: hidden;
+
 }
 
   .features-item{
@@ -133,25 +151,28 @@ nav .promo-btn{
     margin-left: 30px;
     float: left;
     min-height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     }
 
 .feautures-item:first-child{margin-left: 0;}
 .feautures-item:last-child{margin-right: 0;}
 
-.feautures-img{
+
+.features-item img{
+  display: inline-block;
   float: left;
-  width: 30%;
+
 }
 .feautures-text{
-  float: right;
-  width: 60%;
   padding-top: 25px;
+  text-align: left;
 }
 
           /*Каталог техники контейнер*/
 
   .technic{
-    background-color: whitesmoke;
+    background-color: #f3f3f3;
     overflow: hidden;
     padding: 25px;
     min-height: 120px;
@@ -162,7 +183,7 @@ nav .promo-btn{
   }
 
 .technic li{
-  padding: 5px;
+  padding: 10px;
 }
 
   .technic-menu{
@@ -195,7 +216,7 @@ nav .promo-btn{
             /*О компании контейнер*/
 
   .about{
-    background-color: darkslategray;
+    background-color: #202e3b;
     color: white;
     overflow: hidden;
     min-height: 120px;
@@ -207,18 +228,43 @@ nav .promo-btn{
   .about .about-reviews{
     float: right;
     }
+
+  .about-reviews-item{
+    padding-top: 15px;
+    margin-left: 0;
+
+  }
+  .about-reviews-item img{
+    float: left;
+
+  }
+  .about-reviews-item blockquote{
+    text-align: left;
+
+  }
+  .about-reviews-item cite{
+    text-align: left;
+    color: #ffcd34;
+      }
   .subtitle{
     padding: 15px 0px;
+    font-size: 26px;
   }
 
   .about li{
     padding: 5px 0px;
   }
 
-  .about li span{
-    font-size: 20px;
-    color: orange;
+  .about .about-digit{
+    font-size: 38px;
+    color: #ffcd34;
   }
+  .about .about-word{
+    font-size: 18px;
+    font-weight: bold;
+    color: #9e9e9e;
+  }
+
 
 
               /*Карта контейнер*/
@@ -299,7 +345,8 @@ nav .promo-btn{
     display: inline-block;
     background-color: white;
     padding: 5px;
-    margin: 10px;
+    margin-left: 25px;
+    margin-bottom: 5px;
     border: 1px solid white;
     width: 220px;
     overflow: hidden;
@@ -357,6 +404,17 @@ nav .promo-btn{
 
   }
 
+  .specoffer{
+    background-color: grey;
+    text-align: center;
+  }
+
+  .specoffer .del{
+    text-decoration: line-through;
+    color: red;
+  }
+
+
                 /*Подвал сайта*/
 
 
@@ -367,7 +425,7 @@ nav .promo-btn{
   footer .main-nav{
     float: right;
         }
-  footer .main-nav a{
+  footer .white-word{
     color: white;
     }
   footer .footer-btn{
@@ -377,11 +435,14 @@ nav .promo-btn{
     color: yellow;
     }
   footer .main-nav a:hover{
-background-color: yellow;
+background-color: #ffcd34;
+color: white;
+padding:15px;
   }
     footer .logo{
       color: orange;
       }
+
 ul{
   list-style: none;
 }
@@ -389,5 +450,7 @@ ul{
   footer li{
     padding: 5px;
   }
-
+footer .odbtn{
+  color: #ffcd34;
+}
 
