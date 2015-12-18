@@ -144,12 +144,13 @@ nav .promo-btn{
 }
 
   .features-item{
-    width: 20%;
-    margin-left: 30px;
+    width: 25%;
     float: left;
     min-height: 100px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    padding-left: 50px;
     }
 
 .feautures-item:first-child{margin-left: 0;}
@@ -157,13 +158,14 @@ nav .promo-btn{
 
 
 .features-item img{
-  display: inline-block;
-  float: left;
-
+  position: absolute;
+  left: 1px;
+  top: 55px;
 }
-.feautures-text{
-  padding-top: 25px;
+.features-text{
+  /*padding-top: 25px;*/
   text-align: left;
+  font-size: 13px;
 }
 
           /*Каталог техники контейнер*/
@@ -173,10 +175,13 @@ nav .promo-btn{
     overflow: hidden;
     padding: 25px;
     min-height: 120px;
+
     }
 
   .technic .subtitle{
     padding-bottom: 15px;
+    padding-left: 10px;
+    margin-bottom: 35px;
   }
 
 .technic li{
@@ -185,7 +190,14 @@ nav .promo-btn{
 
   .technic-menu{
     float: left;
+    width: 25%;
+    margin-right: 25px;
+
     }
+
+  .technic-menu h2{
+    float: left;
+  }
 
   .technic-menu a{
     color: black;
@@ -193,6 +205,7 @@ nav .promo-btn{
 
   .deals{
     float: right;
+    width: 70%;
     }
 
 .table-grey{
@@ -203,10 +216,20 @@ nav .promo-btn{
 }
 
   .deals-table th{
-    padding: 15px;
+    padding: 15px 15px 15px 10px;
+
+  }
+  .deals-table td{
+    padding-left: 10px;
   }
   .deals-table{
     border-spacing: 7px 11px;
+    border-collapse: collapse;
+    width: 700px;
+    height: 180px;
+    text-align: left;
+    margin-top: 35px;
+
   }
 
 
@@ -217,34 +240,43 @@ nav .promo-btn{
     color: white;
     overflow: hidden;
     min-height: 120px;
+
     }
   .about .about-number{
     float: left;
+    width: 33%;
+
     }
 
   .about .about-reviews{
     float: right;
+    width: 67%;
+
     }
 
   .about-reviews-item{
-    padding-top: 15px;
+    /*padding-top: 15px;*/
+    margin-bottom: 40px;
     margin-left: 0;
+    display: inline-block;
 
   }
+
   .about-reviews-item img{
     float: left;
-
+    margin-right: 20px;
   }
   .about-reviews-item blockquote{
     text-align: left;
-
+    margin-bottom: 20px;
   }
   .about-reviews-item cite{
     text-align: left;
     color: #ffcd34;
+
       }
-  .subtitle{
-    padding: 15px 0px;
+  .about .subtitle{
+    padding: 45px 0px;
     font-size: 26px;
   }
 
@@ -262,6 +294,9 @@ nav .promo-btn{
     color: #9e9e9e;
   }
 
+  .subtitle span{
+    font-weight: normal;
+  }
 
 
               /*Карта контейнер*/
@@ -281,8 +316,7 @@ nav .promo-btn{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
-  padding-top: 60px;
-  padding-bottom: 60px;
+
   min-height: 120px;
     overflow: hidden;
   }
@@ -294,14 +328,15 @@ nav .promo-btn{
   .promo-consult-slogan{
     font-size: 23px;
     color: #ffcd34;
-    padding-top: 25px;
+    padding-top: 50px;
   }
   .promo-consult-title{
     font-size: 16px;
     color: white;
     font-weight: normal;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+
   }
 
   .promo-right{
@@ -341,9 +376,7 @@ nav .promo-btn{
 
   }
 
-  .technic .subtitle{
-    float: right;
-  }
+
   .technic-subtitle-img,
   .subtitle{
     vertical-align: middle;
@@ -355,7 +388,7 @@ nav .promo-btn{
   }
   .technic .downbtn{
     background-color: #354b60;
-    padding: 5px;
+    padding: 9px 13px 9px 13px;
     margin-left: 5px;
 
 
@@ -367,6 +400,8 @@ nav .promo-btn{
     padding-top: 15px;
     margin-left: 0;
     padding-left: 0;
+
+
   }
 
   .catalog{
@@ -377,12 +412,18 @@ nav .promo-btn{
     display: inline-block;
     background-color: white;
     padding: 10px;
-    margin-left: 25px;
-    margin-bottom: 5px;
+    padding-bottom: 35px;
+    margin: 9px;
     border: 1px solid white;
     width: 220px;
     overflow: hidden;
+    position: relative;
 
+  }
+  .catalog-item:before{
+    position: absolute;
+    content: 'new';
+    background-color: #00c22e;
   }
   .catalog-pages{
     vertical-align: bottom;
@@ -449,7 +490,10 @@ nav .promo-btn{
     float: left;
   }
 
+  .dwnbtm{
+    margin-right: 3px;
 
+  }
 
 
              /*Портфолио страница*/
@@ -559,6 +603,115 @@ nav .promo-btn{
     font-size: 14px;
     padding-bottom: 25px;
   }
+
+
+
+              /*Контакты страница*/
+
+
+  .contacts{
+    background-image: url(../img/contacts/excavator_back.png);
+    background-size: 100% 100%;
+    min-height: 105px;
+    overflow: hidden;
+
+  }
+
+  .contact-left{
+    float: left;
+    width: 60%;
+  }
+  .contact-right{
+    float: right;
+    width: 40%;
+  }
+  .contacts .contact{
+    font-size: 26px;
+    color: #ffcd34;
+    float: left;
+    padding-top: 35px;
+    padding-right: 15px;
+  }
+
+  .contacts .contacts-title{
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+    padding-top: 45px;
+
+  }
+  .contacts .button{
+    color: black;
+    background-color: #ffcd34;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+  }
+
+  .contacts-map{
+    overflow: hidden;
+    background-color: #f3f3f3;
+
+  }
+
+  .contacts-map .mapleft{
+    float: left;
+    width: 60%;
+    min-height: 392px;
+    padding: 40px 40px 0 40px;
+  }
+  .contacts-map .form-right{
+    float: right;
+    width: 40%;
+    overflow: hidden;
+  }
+
+  .telnum{
+    margin-top: 40px;
+  }
+
+  .email{
+    margin-top: 30px;
+  }
+
+  .telnum span{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  .email span{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  .contacts-map .consult-title{
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 0px;
+  }
+
+  .contacts-btn{
+    color: white;
+    padding: 10px;
+    background-color: #354b60;
+    text-decoration: none;
+
+
+  }
+  .contactsform input{
+    border: 2px solid #d5d5d5;
+    background-color: white;
+    margin-top: 10px;
+    width: 300px;
+  }
+  .contactsform input:last-child{
+    padding-bottom: 70px;
+  }
+
 
                 /*Подвал сайта*/
 
