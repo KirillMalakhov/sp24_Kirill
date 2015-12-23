@@ -16,7 +16,7 @@
   <nav class="main-nav">
     <ul>
       <li><a href="index.html">О компании</a></li>
-      <li><a href="#">Каталог</a></li>
+      <li><a href="#" class="active-page">Каталог</a></li>
       <li><a href="portfolio.html">Портфолио</a></li>
       <li><a href="contacts.html">Контакты</a></li>
       <li><a href="#" class="promo-btn">Заказать звонок</a></li>
@@ -43,18 +43,19 @@
   <div class="container">
     <aside class="technic-menu">
       <img src="img/catalog/truck_icon copy.png" height="24" width="31" alt="" class="technic-subtitle-img"> <h2 class="subtitle"> Вся техника</h2>
-          <ul>
-            <li><a href="#">Гусеничные экскаваторы</a></li>
-            <li><a href="#" class="link-active">Колёсные экскаваторы</a></li>
-            <li><a href="#">Мини-экскаваторы</a></li>
-            <li><a href="#">Автокраны</a></li>
-            <li><a href="#">Фронтальные погрузчики</a></li>
-            <li><a href="#">Навесное оборудование</a></li>
-            <li><a href="#">Дизельгенераторы</a></li>
+          <ul class="link_list">
+            <li class="linkone"><a href="#">Гусеничные экскаваторы</a></li>
+            <li class="linkone link_active"><a href="#">Колёсные экскаваторы</a></li>
+            <li class="linkone"><a href="#">Мини-экскаваторы</a></li>
+            <li class="linkone"><a href="#">Автокраны</a></li>
+            <li class="linkone"><a href="#">Фронтальные погрузчики</a></li>
+            <li class="linkone"><a href="#">Навесное оборудование</a></li>
+            <li class="linkone"><a href="#">Дизельгенераторы</a></li>
           </ul>
           <div class="pdf-download">
 
-          <a href="#" class="downbtn"><img src="img/catalog/dwnbtm.png" height="18" width="17" alt="" class="dwnbtm">Скачать каталог в PDF</a></div>
+          <a href="#" class="downbtn"><img src="img/catalog/dwnbtm.png" height="18" width="17" alt="" class="dwnbtm">Скачать каталог в PDF</a>
+          </div>
     </aside>
       <div class="catalog">
         <div class="catalog-item">
@@ -89,11 +90,11 @@
           <a href="#" class="rentbtm">Арендовать</a>
           <a href="#" class="moreinfo">Подробнее</a></div>
         </div>
-        <div class="catalog-pages">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
+        <div class="catalog_pages">
+        <a href="#" class="page pageactive">1</a>
+        <a href="#" class="page">2</a>
+        <a href="#" class="page">3</a>
+        <a href="#" class="page">4</a>
         </div>
       </div>
   </div>
@@ -155,7 +156,8 @@
 
 
 
-
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/script.js"></script>
 <script src="js/live.js"></script>
 </body>
 </html>

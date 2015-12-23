@@ -31,6 +31,8 @@ body{
   color: black;
   text-decoration: none;
 }
+.logo:hover{border: none;
+padding: 0;}
 .logo span, .logo img{
   vertical-align: middle;
 }
@@ -46,6 +48,24 @@ body{
   line-height: 40px;
   text-align: right;
   }
+  header a:hover{
+border: 2px solid #bc9d36;
+padding:13px;
+  }
+   header a:active{
+border: 2px solid #796e38;
+padding:13px;
+  }
+ header .promo-btn:hover{
+  border: none;
+  background-color: #ffecb2;
+  padding: 10px;
+ }
+ header .promo-btn:active{
+  border: none;
+  background-color: #f6bf16;
+  padding: 10px;
+ }
 nav li{
     display: inline-block;
     }
@@ -53,8 +73,9 @@ nav .promo-btn{
   background-color: #ffe184;
   padding: 10px;
   }
-  ul li:nth-child(1){font-weight: bold;
-  }
+ .active-page{
+  font-weight: bold;
+ }
 .logo-btn{
   padding-left: 10px;
   }
@@ -115,7 +136,18 @@ nav .promo-btn{
     padding: 12px;
     text-decoration: none;
     color: #000;
-
+  }
+.consult .consult-btn:hover{
+    background-color: #ffd966;
+    padding: 12px;
+    text-decoration: none;
+    color: #000;
+  }
+.consult .consult-btn:active{
+    background-color: #f6bf16;
+    padding: 12px;
+    text-decoration: none;
+    color: #000;
   }
 
   .consult-title{
@@ -131,11 +163,30 @@ nav .promo-btn{
     }
   input{
     border: 2px solid #ffcd34;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     background-color: #202e3b;
     margin-right: 12px;
+    position: relative;
+    }
+    .consultform input:hover{
+      border: 2px solid #ffd966;
+    padding: 10px;
     }
 
+    .consultform input:active{
+      border: 2px solid #ffe390;
+    padding: 10px;
+    }
+
+    .consultform input:after{
+      content: '';
+      background-image: url(../img/main/arrow.png);
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 1px;
+      top: 1px;
+
+    }
               /*Функции контейнер*/
 .features {
   min-height: 120px;
@@ -186,6 +237,14 @@ nav .promo-btn{
 
 .technic li{
   padding: 10px;
+}
+
+.link_active a{
+  font-weight: bold;
+  text-decoration: none;
+}
+.link_active a:before{
+  content: '>';
 }
 
   .technic-menu{
@@ -358,7 +417,18 @@ nav .promo-btn{
     margin-left: 20px;
 
   }
+.consult-button:hover{
+    background-color: #ffd966;
+    padding: 10px;
+    margin-left: 20px;
 
+  }
+  .consult-button:active{
+    background-color: #f6bf16;
+    padding: 10px;
+    margin-left: 20px;
+
+  }
   .promo-right p{
     padding: 20px;
     color: white;
@@ -390,11 +460,14 @@ nav .promo-btn{
     background-color: #354b60;
     padding: 9px 13px 9px 13px;
     margin-left: 5px;
-
-
     color: white;
     text-decoration: none;
-
+  }
+   .technic .downbtn:hover{
+    background-color: #46617a;
+  }
+   .technic .downbtn:active{
+    background-color: #567999;
   }
   .pdf-download{
     padding-top: 15px;
@@ -450,12 +523,22 @@ nav .promo-btn{
     margin-bottom: 15px;
   }
 
-  .catalog-pages{
+  .catalog_pages{
     vertical-align: bottom;
     text-align: center;
     padding: 10px;
   }
+  .page{
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+  }
+  .pageactive{
+    background-color: #354b60;
+    color: white;
+    padding: 4px;
 
+  }
   .catalog-item-name{
     font-size: 15px;
     text-align: left;
@@ -581,7 +664,24 @@ nav .promo-btn{
     font-weight: bold;
   }
 
-  .catalog-item-sale .rentbtm{
+  .catalog-item .rentbtm{
+    background-color: #ffcd34;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+
+  }
+
+  .catalog-item .moreinfo{
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+
+  }
+    .catalog-item-sale .rentbtm{
     background-color: #ffcd34;
     text-decoration: none;
     color: white;
@@ -597,6 +697,56 @@ nav .promo-btn{
     padding: 5px;
     font-size: 16px;
 
+  }
+.catalog-item .rentbtm:hover{
+    background-color: #ffd966;
+  }
+
+  .catalog-item .moreinfo:hover{
+    background-color: #46617a;
+
+  }
+  .catalog-item .rentbtm:active{
+    background-color: #ffc600;
+  }
+
+  .catalog-item .moreinfo:active{
+    background-color: #567999;
+  }
+
+
+
+.catalog-item-sale .rentbtm:hover{
+    background-color: #ffd966;
+  }
+
+  .catalog-item-sale .moreinfo:hover{
+    background-color: #46617a;
+
+  }
+  .catalog-item-sale .rentbtm:active{
+    background-color: #ffc600;
+  }
+
+  .catalog-item-sale .moreinfo:active{
+    background-color: #567999;
+  }
+
+
+  .catalog-item-new .rentbtm:hover{
+    background-color: #ffd966;
+  }
+
+  .catalog-item-new .moreinfo:hover{
+    background-color: #46617a;
+
+  }
+  .catalog-item-new .rentbtm:active{
+    background-color: #ffc600;
+  }
+
+  .catalog-item-new .moreinfo:active{
+    background-color: #567999;
   }
 
              /*Портфолио страница*/
@@ -755,7 +905,7 @@ nav .promo-btn{
   .contacts-map{
     overflow: hidden;
     background-color: #f3f3f3;
-
+    padding-bottom: 50px;
   }
 
   .contacts-map .mapleft{
@@ -768,6 +918,7 @@ nav .promo-btn{
     float: right;
     width: 40%;
     overflow: hidden;
+    min-height: 450px;
   }
 
   .telnum{
@@ -775,7 +926,7 @@ nav .promo-btn{
   }
 
   .email{
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .telnum span{
@@ -788,6 +939,7 @@ nav .promo-btn{
     font-size: 18px;
     font-weight: bold;
     padding: 5px;
+
   }
 
   .contacts-map .consult-title{
@@ -810,9 +962,11 @@ nav .promo-btn{
     background-color: white;
     margin-top: 10px;
     width: 300px;
+
   }
   .contactsform input:last-child{
     padding-bottom: 70px;
+    margin-bottom: 20px;
   }
 
 .reviews{
@@ -845,10 +999,12 @@ nav .promo-btn{
   footer{
     background-color: #202e3b;
     overflow: hidden;
-
+    min-height: 75px;
     }
   footer .main-nav{
     float: right;
+
+    padding:15px;
         }
   footer .white-word{
     color: white;
@@ -860,9 +1016,12 @@ nav .promo-btn{
     color: yellow;
     }
   footer .main-nav a:hover{
-background-color: #ffcd34;
-color: white;
-padding:15px;
+border: 2px solid #3f4c56;
+padding:13px;
+  }
+   footer .main-nav a:active{
+border: 2px solid #a6abb1;
+padding:13px;
   }
     footer .logo{
       color: #ffcd34;
@@ -882,6 +1041,7 @@ footer .odbtn{
 
 footer .footer-nam-menu{
   color: white;
+
 }
 footer .catalog-footer-btn{
   color: #ffcd34;
