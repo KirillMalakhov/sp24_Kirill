@@ -40,7 +40,8 @@ padding: 0;}
 .main-nav a{
   text-decoration: none;
   color: black;
-  padding-right: 35px;
+  padding: 15px;
+  margin-right: 5px;
 }
  .main-nav{
   float: right;
@@ -50,11 +51,12 @@ padding: 0;}
   }
   header a:hover{
 border: 2px solid #bc9d36;
-padding:13px;
+padding: 13px;
+
   }
    header a:active{
 border: 2px solid #796e38;
-padding:13px;
+
   }
  header .promo-btn:hover{
   border: none;
